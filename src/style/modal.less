@@ -1,0 +1,29 @@
+.vertical-center-modal {
+  text-align: center;
+  white-space: nowrap;
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+  }
+  .ant-modal {
+    display: inline-block;
+    vertical-align: middle;
+    top: 0;
+    text-align: left;
+    .ant-table-content .ant-table-tbody tr td{
+      padding:4px 8px;
+    }
+  }
+}
+
+.ant-modal {
+  .ant-table-content .ant-table-tbody tr td{
+    padding:4px 8px;
+  }
+  .ant-table-content .ant-table-thead tr th{
+    padding:8px 8px;
+  }
+}

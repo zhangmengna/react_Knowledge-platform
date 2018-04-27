@@ -1,0 +1,44 @@
+:local{
+
+	/*logo*/
+	.logo {
+		width: 310px;
+		float: left;
+		height: 64px;
+		background: none;
+		border: none;
+		margin: 0 0 0 40px;
+	}
+
+	.logo img {
+		height: 55px;
+		width: 270px;
+	}
+	.content li{padding: 10px 25px;border-bottom: 1px solid #eee;}
+	.content li:hover, .point{background:#e6f7ff;}
+	.content p{     
+			margin: 0;
+			line-height: 22px;
+		font-weight: normal; }
+	.informerbox{ 
+		width: 344px;
+		height: 460px;
+		background: #f4f4f8;
+		position: fixed;
+		right: 60px;
+		top: 80px;
+		z-index: 10;
+		border-radius: 4px;
+	}
+	.informerbox::before{   
+		content: "";
+		position: absolute;
+		right: 55px;
+		top: -35px;
+		width: 0;
+		height: 0;
+		border: 22px solid rgba(0,0,0,0);
+		border-bottom-color: #f4f4f8;
+	}
+	
+}

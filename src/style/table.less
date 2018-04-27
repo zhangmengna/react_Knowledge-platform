@@ -1,0 +1,50 @@
+.table-operations {
+  margin-bottom: 16px;
+  > button {
+    margin-right: 8px;
+  }
+}
+
+.editable-row-text {
+  padding: 5px;
+}
+
+.editable-row-operations a {
+  margin-right: 8px;
+}
+.ant-table-content{
+	.ant-table-thead {
+		tr{
+			th{
+				background:#f0f8fb;
+				border-bottom:1px solid #ddd;
+				text-align:center;
+				padding:10px 8px;
+			}
+		}
+	}
+	.ant-table-tbody{
+		tr:hover{
+			td{
+				background:#c0ddeb;
+
+			}
+		}
+		tr:nth-child(odd){
+			background:#fff;
+		}
+		tr:nth-child(even){
+			background:#f0f8fb;
+		}
+		tr{
+			td{ 
+				padding:8px 8px; text-align:center; border-bottom:none; 
+				/*word-break:keep-all;          
+				white-space:nowrap;          
+				overflow:hidden;               
+				text-overflow:ellipsis;*/
+			}
+		}
+	}
+}
+.ant-table-fixed-left td,.ant-table-fixed-left th,.ant-table-fixed-right td,.ant-table-fixed-right th,.ant-table-scroll td,.ant-table-scroll th{white-space:normal}
